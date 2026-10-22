@@ -1,0 +1,15 @@
+{
+  "name": "sample-py",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "ruff check .",
+    "format:check": "ruff format --check .",
+    "format": "ruff format .",
+    "test": "pytest -q"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  }
+}
