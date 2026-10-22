@@ -4,3 +4,5 @@ def add(a: int, b: int) -> int:
 
 if __name__ == "__main__":
     print(add(2, 3))
+
+    print(add(10, 5))
